@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>10.17<pjh></title>
+		<style>
+				div{
+					width: 100px;
+					height: 100px;
+					background-color: red;
+					position: absolute; 
+					padding: 30px;
+					animation: myfirst 3s infinite;        
+					
+				}
+				@keyframes myfirst{  
+					0%{background: rgb(0, 0, 0); left:0px; top:0px;}         
+					25% {background: rgb(43, 43, 2); left:200px; top:0px;}         
+					50% {background: rgb(15, 44, 15); left:200px; top:200px;}         
+					75% {background: rgb(46, 18, 46); left:0px; top:200px;}        
+					100% {background: rgb(0, 0, 0); left:0px; top:0px;}     
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
